@@ -1,0 +1,19 @@
+#star-box{
+    display:flex;
+}
+
+#star-box:hover .fa{
+    color: gold;
+}
+
+#star-box .fa:hover{
+    color: gold;
+}
+
+#star-box .fa:hover ~ .fa{
+    color: black;
+}
+
+.checked{
+    color:gold;
+}
