@@ -1,19 +1,35 @@
+/*style star-box and stars*/
 #star-box{
     display:flex;
 }
 
-#star-box:hover .fa{
+#star-box:hover .fa-star{
     color: gold;
+    opacity:70%;
 }
 
-#star-box .fa:hover{
+#star-box .fa-star:hover{
     color: gold;
+    opacity:70%;
 }
 
-#star-box .fa:hover ~ .fa{
+#star-box .fa-star:hover ~ .fa-star{
     color: black;
+    opacity:100%;
 }
 
 .checked{
     color:gold;
+}
+
+/*style rating display*/
+#rating-display{
+    font-family:sans-serif;
+    font-size:18px;
+    letter-spacing:0.1em;
+}
+
+#user-rating_input{
+    margin-left:5px;
+    font-weight:bold;
 }
